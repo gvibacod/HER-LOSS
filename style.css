@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth !important;
+}
+
+body {
+    background-image: radial-gradient(circle at center, #ffffff 40%, #d386b3 100%);
+    padding-top: 80px; 
+}
+
+img{
+    width: 600px;
+    height: auto;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.titulo-album{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #e5a5e5 20%, #69234f 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+
+.subtitulo-album{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    color: #964f77;
+}
+
+section {
+    scroll-margin-top: 90px; 
+}
+
+.navbar-topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    background-color: rgba(129, 42, 122, 0.267);
+    backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(255, 102, 242, 0.2);
+}
+
+.logo {
+    color: #fce0ff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family:"Roboto Flex", sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-family: "Jost", sans-serif;
+}
+
+.nav-links a:hover {
+    color: #e88eff; 
+    text-shadow: 0 0 8px rgba(218, 154, 255, 0.5);
+}
+
+.sinopse {
+    font-family: "Jost", sans-serif;
+    color: #912a69;
+    font-size: 18px;
+    margin: 5px 250px 5px 250px;
+    text-align: justify;
+}
+
+#sessão1{
+    font-family: "Jost", sans-serif;
+    color: #700e4a;
+    text-align: center;
+    margin: 25px 0px 15px 0px;
+    font-size: 30px;
+
+}
+
+#sessão2 {
+    font-family: "Jost", sans-serif;
+    color: #aa4081;
+    text-align: center;
+    margin: 100px 0px 15px 0px;
+    font-size: 50px;
+}
+
+#sessão3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color:#ec72bb;
+    font-family: "Jost", sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center; 
+    gap: 25px;              
+    flex-wrap: wrap;       
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.music-card {
+    background: rgba(255, 255, 255, 0.02); 
+    border: 1px solid rgba(0, 85, 255, 0.1); 
+    border-radius: 16px;
+    padding: 30px;
+    flex: 1 1 300px;       
+    max-width: 350px;      
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    overflow: hidden;
+}
+
+.card-number {
+    font-family: "Jost", sans-serif;
+    color: #662972; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.music-card h3 {
+    font-size: 1.6rem;
+    color: #fa87e1;
+    margin-bottom: 5px;
+    font-family: "Jost", sans-serif;
+}
+
+.card-artist {
+    font-size: 0.85rem;
+    color: #6b2b62;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-family:"Jost", sans-serif;
+}
+
+.card-lyrics {
+    font-size: 0.95rem;
+    color: #751458;
+    line-height: 1.5;
+    font-style: italic;
+    margin-top: auto; 
+    font-family:"Jost", sans-serif;
+    margin-top: 15px;
+}
+
+.music-card:hover {
+    transform: translateY(-10px); 
+    background: rgba(0, 85, 255, 0.04); 
+    border-color: #ff9bf7; 
+    box-shadow: 0 15px 30px rgba(0, 85, 255, 0.2); 
+}
+
+.music-card:hover .card-lyrics {
+    color: #ff80ea;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+video{
+    width: 900px;
+    height: auto;
+}
+
+#sessão4{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color:#ec72bb;
+    font-family: "Jost", sans-serif;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.spotify-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
