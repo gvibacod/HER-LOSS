@@ -1,0 +1,1 @@
+Este site foi desenvolvido como forma de promover o álbum Her Loss, do rapper Drake em colaboração com 21 Savage. O site foi desenvolvido utilizando as tecnologias HTML, CSS e Javascript em sua composição.
